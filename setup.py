@@ -15,7 +15,7 @@ requires = ['Sphinx>=1.0']
 setup(
     name='sphinxcontrib-domaintools',
     version=domaintools.__version__,
-    url='http://bitbucket.org/klorenz/sphinxcontrib-domaintools',
+    url='http://github.com/mithro/sphinxcontrib-domaintools',
     download_url='http://pypi.python.org/pypi/sphinxcontrib-domaintools',
     license='BSD',
     author='Kay-Uwe (Kiwi) Lorenz',
