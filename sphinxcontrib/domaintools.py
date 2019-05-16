@@ -180,7 +180,7 @@ def custom_domain(class_name, name='', label='', elements = {}):
 
         domain_class.directives[n] = type(n, (domain_object_class, object), dict(
             indextemplate   = e.get('indextemplate', 'pair: %%s; %s' % obj_name),
-            parse_node      = staticmethod(e.get('parse', None)),
+            parse_node      = staticmethod(e.get('parse_node', None)),
             doc_field_types = e.get('fields', []),
             ))
 
