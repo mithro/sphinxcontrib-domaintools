@@ -22,8 +22,6 @@
 import re
 import unicodedata
 
-from docutils import nodes
-
 from sphinx import addnodes
 from sphinx.roles import XRefRole
 from sphinx.locale import l_, _
